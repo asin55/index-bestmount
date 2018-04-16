@@ -7,3 +7,34 @@
     background-color: #e5e7e6;
 }
 
+.menu li{
+    display: inline;
+    font-size: 14px;
+    margin:  15px 0;
+
+}
+
+.menu {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    height: 40px;
+    padding: auto;
+
+}
+
+.menu a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 13px 20px;
+    height: 40px;
+
+}
+
+.menu ul {
+    margin: 12px 0;
+    padding: 0;
+}
