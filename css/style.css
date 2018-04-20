@@ -20,7 +20,7 @@
     text-align: center;
     width: 100%;
     background-color: black;
-    height: 40px;
+    height: 100px;
     padding: auto;
 
 }
@@ -58,7 +58,7 @@ section {
 .text {
     position: absolute;
     top: 0;
-    background-color: rgba(182, 15, 32, 0.8);
+    background-color: rgba(280, 0, 42, 0.8);
     text-align: left;
     width: 100%;
     max-width: 400px;
@@ -92,4 +92,31 @@ section {
 
 .text p {
     margin-bottom: 55px;
+}
+
+.dropdawn{
+    position: relative;
+    overflow: hidden;
+}
+.dropdawn:hover ul{
+    opacity: 1;
+}
+.dropdawn:hover{
+    overflow: visible;
+}
+.dropdawn ul {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background-color: #2e2d32;
+    padding: 7px;
+    z-index: 2;
+    display: block;
+    min-width: 150px;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.dropdawn li {
+    display: block;
 }
