@@ -42,17 +42,54 @@
     max-width: 965px;
     width: 100%;
 }
-.conteiner {
-    text-align: center;
-    position: relative;
-}
+
+
 section {
     background-color: #d0002f;
 }
+
 .banner {
+    text-align: center;
+    position: relative;
+    max-width: 965px;
+    margin: auto;
+}
+
+.text {
     position: absolute;
+    top: 0;
     background-color: rgba(182, 15, 32, 0.8);
     text-align: left;
     width: 100%;
     max-width: 400px;
+    height: 100%;
+    padding: 60px 0 0 30px;
+}
+
+/*.learn_more {*/
+    /*width: 150px;*/
+    /*height: 35px;*/
+    /*background-color: #a8acae;*/
+
+/*}*/
+
+.text a {
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: 18px;
+    /*background-color: #a8acae;*/
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    background: #f0f9ff;
+    background: -moz-linear-gradient(top, #f0f9ff 0%, #ffffff 0%, #464e55 100%);
+    background: -webkit-linear-gradient(top, #f0f9ff 0%,#ffffff 0%,#464e55 100%);
+    background: linear-gradient(to bottom, #f0f9ff 0%,#ffffff 0%,#464e55 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#464e55',GradientType=0 );
+
+
+}
+
+.text p {
+    margin-bottom: 55px;
 }
