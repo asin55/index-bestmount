@@ -1,0 +1,185 @@
+@font-face {
+    font-family: 'OstrichSansBlack';
+    src: url('../fonts/OstrichSansBlack.eot');
+    src: url('../fonts/OstrichSansBlack.eot') format('embedded-opentype'),
+    url('../fonts/OstrichSansBlack.woff2') format('woff2'),
+    url('../fonts/OstrichSansBlack.woff') format('woff'),
+    url('../fonts/OstrichSansBlack.ttf') format('truetype'),
+    url('../fonts/OstrichSansBlack.svg#OstrichSansBlack') format('svg');
+}
+
+
+.country_bg {
+    text-align: center;
+}
+
+.choose_country {
+    width: 100%;
+    max-width: 966px;
+    margin: auto;
+
+}
+
+.country p{
+    display: inline;
+    margin-right: 10px;
+
+}
+.country p b {
+    color: #d3143e;
+}
+
+.country a {
+    margin-right: 5px;
+}
+
+
+.fa-shopping-cart {
+     margin-right: 10px;
+}
+
+.login {
+     margin-right: 20px;
+    background-color: #d0002f;
+    border: none;
+    border-radius: 10px ;
+    color: white;
+    padding: 3px 30px;
+    font-size: 10px;
+}
+
+.view_cart {
+    margin:3px 20px 5px 0;
+    background-color: #333639;
+    border: none;
+    border-radius: 10px ;
+    color: white;
+    padding: 7px 10px;
+    ;
+    font-size: 10px;
+}
+.buttoms p {
+    display: inline;
+}
+.bestmounts {
+    margin-right: 40px;
+    font-size: 10px;
+}
+.money {
+    font-size: 14px;
+}
+.country {
+    float: left;
+}
+
+.buttoms {
+    float: right;
+
+}
+.choose_country:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.search input {
+    border: none;
+    background-color: #333639;
+    max-width: 140px;
+    width: 100%;
+    display: inline;
+}
+.search {
+    background-color: #333639;
+    width: 190px;
+    padding: 5px;
+    border-radius: 15px;
+    box-sizing: border-box;
+
+}
+.logo .fa-search{
+    margin-right: 10px;
+
+}
+
+.logo {
+    display: inline-block;
+    width: 100%;
+    max-width: 966px;
+
+
+
+}
+.logo form {
+    display: inline;
+    float: right;
+    margin-top: 52px;
+
+}
+.logo img {
+    float: left;
+    display: inline;
+    margin: 36px 0 24px 40px;
+
+}
+.logo_bg {
+
+    background-color: #e5e7e6;
+    text-align: center;
+}
+
+.logo:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.nav_bg {
+    box-sizing: border-box;
+    height: 40px;
+    margin: 0;
+    width: 100%;
+    background: #666666;
+    background: -moz-linear-gradient(top, #666666 0%, #000000 100%);
+    background: -webkit-linear-gradient(top, #666666 0%,#000000 100%);
+    background: linear-gradient(to bottom, #666666 0%,#000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', endColorstr='#000000',GradientType=0 );
+}
+
+.menu  {
+    display: inline;
+    width: 100%;
+    max-width: 966px;
+    padding: 0;
+    text-align: justify;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+
+.menu li {
+    display: inline;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
+nav {
+    text-align: center;
+    width: 100%;
+    max-width: 966px;
+    height: 100%;
+    padding-top: 12px;
+    box-sizing: border-box;
+    margin: auto;
+    position: relative;
+}
+
+.menu a {
+    font-family: OstrichSansBlack;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px 12px;
+    color: white;
+
+}
